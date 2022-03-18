@@ -9,13 +9,18 @@
 .container{
     width: 1280px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
 header{
     height: 100px;
-    background-color: #e579e6;
+    /* background-color: #e579e6; */
     margin-bottom: 20px;
+}
+.logo{
+    width: 150px;
+    padding-top: 10px;
 }
 
 /* main */
@@ -43,7 +48,7 @@ header{
     margin-bottom: 20px;
 }
 
-/* colonne */
+/* articoli */
 
 /* common */
 .articolo{
@@ -63,7 +68,9 @@ header{
     margin: 0 20px;
 }
 
+
 /* footer */
+
 footer{
     min-height: 100px;
     background-color: #8801fe;
