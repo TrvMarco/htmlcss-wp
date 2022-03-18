@@ -38,11 +38,17 @@ li{
 
 /* main */
 .hero{
-    min-height: 200px;
-    background-color: #e1d67a;
+    height: 550px;
     margin-bottom: 20px;
-}
+    background-position: center;
+}    
 
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  
+    
 .section-2{
     background-color: #0186ff;
     margin-bottom: 10px;
