@@ -1,0 +1,75 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container principale */
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: #e579e6;
+    margin-bottom: 20px;
+}
+
+/* main */
+.section-1{
+    min-height: 200px;
+    background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+.section-2{
+    background-color: #0186ff;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.clearfix::after{  
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mini-header{
+    min-height: 50px;
+    background-color: #abcfe7;
+    margin-bottom: 20px;
+}
+
+/* colonne */
+
+/* common */
+.colonna{
+    min-height: 400px;
+    background-color: #abcfe7;
+}
+
+/* colonna sx */
+.sinistra{
+    float: left;
+    width: 20%;
+}
+/* colonna centrale */
+.centrale{
+    float: left;
+    width: calc(60% - 40px);
+    margin: 0 20px;
+}
+/* colonna dx */
+.destra{
+    float: left;
+    width: 20%;
+}
+
+/* footer */
+footer{
+    min-height: 100px;
+    background-color: #8801fe;
+}
