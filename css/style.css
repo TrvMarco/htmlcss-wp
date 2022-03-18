@@ -14,11 +14,6 @@
 }
 
 /* header */
-header{
-    height: 100px;
-    margin-bottom: 20px;
-}
-
 .logo{
     width: 150px;
     padding-top: 10px;  
@@ -28,13 +23,11 @@ header a{
     color: #8A8A8A;
     text-decoration: none;
     stlistyle: none;
-    padding: 20px 0px;
 }
 
 ul{
-    margin: 20px 0px;
+    margin: 20px 0;
 }
-
 li{
     list-style: none;
     margin-right: 10px;
