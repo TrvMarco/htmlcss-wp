@@ -34,21 +34,31 @@ li{
     display: inline-block;
 }
 
-
-
 /* main */
-.hero{
-    height: 550px;
-    margin-bottom: 20px;
-    background-position: center;
-}    
 
-.hero-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}  
-    
+.hero{
+    height: 400px;
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+}   
+
+.hero-text{
+    width: 50%;
+    font-size: 18px;
+    padding: 50px 30px;
+    position: absolute;
+    bottom: 0px;
+}
+
+h2{
+    font-weight: 400;
+}
+
+
 .section-2{
     background-color: #0186ff;
     margin-bottom: 10px;
