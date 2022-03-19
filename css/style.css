@@ -34,6 +34,7 @@ header a{
 ul{
     margin: 20px 0;
 }
+
 li{
     list-style: none;
     margin-right: 10px;
@@ -94,6 +95,7 @@ h1{
     float: left;
     width: 20%;
 }
+
 /* colonna centrale */
 .centrale{
     float: left;
@@ -121,7 +123,12 @@ h4{
 }
 
 /* footer */
-/* footer{
-    min-height: 100px;
-    background-color: #8801fe;
-} */
+footer{
+    color:black;
+    text-align: center;
+    margin: 50px 0;
+}
+
+h4 span{
+    color: red;
+}
