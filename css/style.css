@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* clearfix */
+.clearfix::after{  
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* container principale */
 .container{
     width: 1280px;
@@ -52,6 +59,7 @@ li{
     background-position: center;
     border-radius: 15px;
 }
+
 .hero-text{
     width: 50%;
     font-size: 18px;
@@ -62,17 +70,12 @@ li{
 
 h2{
     font-weight: 400;
-}
+} 
 
+/* sezione due */
 .section-2{
     margin-bottom: 10px;
     padding-bottom: 20px;
-}
-
-.clearfix::after{  
-    content: '';
-    display: table;
-    clear: both;
 }
 
 .mini-header{
@@ -85,9 +88,6 @@ h1{
 }
 
 /* articoli */
-
-/* common */
-
 
 /* colonna sx-dx*/
 .sinistra, .destra{
@@ -117,8 +117,9 @@ h1{
 
 h4{
     color: black;
-    padding-top: 20px;
+    padding: 10px 0;
 }
+
 /* footer */
 /* footer{
     min-height: 100px;
