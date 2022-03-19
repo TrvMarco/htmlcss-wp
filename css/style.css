@@ -90,13 +90,13 @@ h1{
 
 /* articoli */
 
-/* colonna sx-dx*/
+/* articolo sx-dx*/
 .sinistra, .destra{
     float: left;
     width: 20%;
 }
 
-/* colonna centrale */
+/* articolo centrale */
 .centrale{
     float: left;
     width: calc(60% - 40px);
